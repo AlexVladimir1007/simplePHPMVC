@@ -9,11 +9,11 @@
   function run(){
     //addCssRef("public/css/home.css");
     $datosPersonales = array(
-      "nombre" => "Mario Perez",
-      "correo" => "loquesea@noseque"
-
+      "solicitante" => "Mario Perez",
+      "requirimiento" => "2",
+      "infoRequirimiento" => "requerimiento para solicitud de materiales de oficina"
      );
-    renderizar("prdbacklog",$datosPersonales);
+    renderizar("nprdbacklog",$datosPersonales);
   }
 
 
